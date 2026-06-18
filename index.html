@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shalini Hariharan — Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet">
+<!-- This line connects your CSS file to this HTML file -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Shalini<span>.H</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div style="max-width:860px;margin:0 auto;padding:0 2rem;">
+<section class="hero" id="home">
+  <div class="hero-eyebrow">Full Stack Developer</div>
+  <h1 class="hero-name">
+    Shalini<br>
+    <span class="line2">Hariharan.</span>
+  </h1>
+  <p class="hero-desc">
+    I build <strong>end-to-end web applications</strong> using Python, React JS, and MySQL.
+    From database design to frontend UI — I handle the full stack.
+    Currently open to <strong>junior developer roles</strong> in Chennai.
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn-primary">View My Projects</a>
+    <a href="resume.pdf" class="btn-outline" download>Download Resume</a>
+    <a href="#contact" class="btn-outline">Get in Touch</a>
+  </div>
+  <div class="hero-scroll">Scroll to explore</div>
+</section>
+</div>
+
+<hr class="full-divider">
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">About Me</div>
+  <div class="about-grid">
+    <div>
+      <h2 class="section-title">MCA graduate turned full-stack builder.</h2>
+      <div class="about-text">
+        <p>I completed my <strong>MCA from Ethiraj College for Women</strong>, Chennai. After exploring different paths, I made a clear decision — I wanted to be in the IT field and build real things.</p>
+        <p>I enrolled in a full-stack Python development course at <strong>Accord Info Matrix</strong>, where I learned to build complete applications — from designing MySQL databases to creating interactive React JS frontends.</p>
+        <p>I have built <strong>4 projects</strong> — a full-stack e-commerce app, an interior design website, an employee management system, and an NLP chatbot shopping site. I also use <strong>AI tools like Claude and ChatGPT</strong> as part of my development workflow, just like modern developers do.</p>
+      </div>
+    </div>
+    <div class="about-stats">
+      <div class="stat-item">
+        <div class="stat-num">4</div>
+        <div class="stat-desc">Projects completed</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">8+</div>
+        <div class="stat-desc">Technologies learned</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">MCA</div>
+        <div class="stat-desc">Master of Computer Applications</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="full-divider">
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label">Technical Skills</div>
+  <h2 class="section-title">What I work with.</h2>
+  <div class="skills-categories">
+    <div class="skill-group">
+      <div class="skill-group-title">Frontend</div>
+      <div class="skill-pills">
+        <span class="pill">HTML5</span>
+        <span class="pill">CSS3</span>
+        <span class="pill">JavaScript</span>
+        <span class="pill">React JS</span>
+        <span class="pill">Bootstrap</span>
+        <span class="pill">Flexbox</span>
+        <span class="pill">CSS Grid</span>
+        <span class="pill">Axios</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Backend</div>
+      <div class="skill-pills">
+        <span class="pill">Python</span>
+        <span class="pill">REST API</span>
+        <span class="pill">http.server</span>
+        <span class="pill">BaseHTTPRequestHandler</span>
+        <span class="pill">PyMySQL</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Database</div>
+      <div class="skill-pills">
+        <span class="pill">MySQL</span>
+        <span class="pill">SQL Queries</span>
+        <span class="pill">Schema Design</span>
+        <span class="pill">CRUD Operations</span>
+        <span class="pill">Foreign Keys</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Tools & Others</div>
+      <div class="skill-pills">
+        <span class="pill">Git</span>
+        <span class="pill">GitHub</span>
+        <span class="pill">VS Code</span>
+        <span class="pill">Claude AI</span>
+        <span class="pill">ChatGPT</span>
+        <span class="pill">React Router</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="full-divider">
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">Projects</div>
+  <h2 class="section-title">Things I have built.</h2>
+  <div class="projects-list">
+
+    <!-- PROJECT 1: SHOPEASY -->
+    <div class="project-card">
+      <div class="project-tag">Full Stack · Python + React JS + MySQL · 2026</div>
+      <div class="project-name">ShopEasy — E-Commerce Platform</div>
+      <div class="project-desc">
+        A complete e-commerce web application built from scratch — with user authentication, product browsing, cart management, and order placement. Handled everything from database design to frontend UI.
+      </div>
+      <ul class="project-points">
+        <li>Built a custom REST API server from scratch using Python's built-in <strong>http.server</strong> and <strong>BaseHTTPRequestHandler</strong> — no framework used</li>
+        <li>Implemented token-based authentication with <strong>SHA-256 password hashing</strong>; token stored in localStorage and validated on every protected API request</li>
+        <li>Designed a normalized MySQL database with <strong>6 tables</strong> — users, categories, products, cart, orders, order_items — with foreign key relationships</li>
+        <li>Connected MySQL using <strong>PyMySQL with DictCursor</strong> for efficient JSON output of query results</li>
+        <li>Built React frontend with <strong>React Router</strong>, <strong>Axios interceptors</strong> for automatic token attachment, and useState/useEffect hooks</li>
+        <li>Implemented live search and category filter on frontend using <strong>JavaScript array filtering</strong> — no extra API calls needed</li>
+        <li>Handled <strong>CORS manually</strong> by adding Access-Control headers in Python server for React-to-Python communication</li>
+      </ul>
+      <div class="project-highlight">
+        ★ Built the REST API in pure Python without any framework — this means I understand exactly how HTTP methods (GET, POST, PUT, DELETE) and request-response cycles work at the core level.
+      </div>
+      <div class="project-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">http.server</span>
+        <span class="stack-tag">BaseHTTPRequestHandler</span>
+        <span class="stack-tag">React JS</span>
+        <span class="stack-tag">React Router</span>
+        <span class="stack-tag">Axios</span>
+        <span class="stack-tag">MySQL</span>
+        <span class="stack-tag">PyMySQL</span>
+        <span class="stack-tag">localStorage</span>
+      </div>
+    </div>
+
+    <!-- PROJECT 2: INTERIOR DESIGN -->
+    <div class="project-card">
+      <div class="project-tag">Frontend · HTML5 + CSS3 · Web Design</div>
+      <div class="project-name">Interior Design Studio Website</div>
+      <div class="project-desc">
+        A fully responsive multi-page Interior Design Studio website with Home, About, Gallery, Projects, and Contact sections. Focused on clean layout, smooth animations, and mobile-friendly design.
+      </div>
+      <ul class="project-points">
+        <li>Built a responsive layout using <strong>Flexbox and CSS Grid</strong> that works across desktop and mobile devices</li>
+        <li>Used <strong>media queries</strong> to adjust the design for different screen sizes automatically</li>
+        <li>Added interactive hover animations using <strong>CSS transform and transition</strong> effects</li>
+        <li>Used <strong>semantic HTML</strong> structure — proper use of header, section, nav, footer tags</li>
+        <li>Designed background overlays, image galleries, and a contact form with clean visual styling</li>
+      </ul>
+      <div class="project-highlight">
+        ★ This project shows my pure frontend skills — layout, design, responsiveness, and animation — without relying on any JavaScript library.
+      </div>
+      <div class="project-stack">
+        <span class="stack-tag">HTML5</span>
+        <span class="stack-tag">CSS3</span>
+        <span class="stack-tag">Flexbox</span>
+        <span class="stack-tag">CSS Grid</span>
+        <span class="stack-tag">Media Queries</span>
+        <span class="stack-tag">CSS Transitions</span>
+        <span class="stack-tag">CSS Transform</span>
+        <span class="stack-tag">Semantic HTML</span>
+      </div>
+    </div>
+
+    <!-- PROJECT 3: EMPLOYEE MANAGEMENT -->
+    <div class="project-card">
+      <div class="project-tag">Backend · Python + MySQL · Console Application</div>
+      <div class="project-name">Employee Management System</div>
+      <div class="project-desc">
+        A console-based Employee Management System built with Python and MySQL. Performs all CRUD operations — Create, Read, Update, Delete — through a menu-driven interface.
+      </div>
+      <ul class="project-points">
+        <li>Built a <strong>menu-driven interface</strong> in Python where the user selects options to manage employee data</li>
+        <li>Connected Python to MySQL using <strong>PyMySQL</strong> and handled all database operations with SQL queries</li>
+        <li>Implemented full <strong>CRUD operations</strong> — add new employee, view all records, search by ID, update info, delete records</li>
+        <li>Added <strong>salary and bonus calculation</strong> functionality for employees</li>
+        <li>Used SQL queries — SELECT, INSERT, UPDATE, DELETE with WHERE conditions</li>
+      </ul>
+      <div class="project-highlight">
+        ★ This project shows my Python + MySQL integration skills — the same database connection method used in ShopEasy's backend.
+      </div>
+      <div class="project-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">MySQL</span>
+        <span class="stack-tag">PyMySQL</span>
+        <span class="stack-tag">SQL</span>
+        <span class="stack-tag">CRUD Operations</span>
+        <span class="stack-tag">Console Application</span>
+      </div>
+    </div>
+
+    <!-- PROJECT 4: NLP CHATBOT -->
+    <div class="project-card">
+      <div class="project-tag">MCA Project · HTML/CSS/JS + PHP + NLP Chatbot</div>
+      <div class="project-name">Online Converse Store with NLP Chatbot</div>
+      <div class="project-desc">
+        A shoe shopping website built as my MCA final project. Features an NLP-powered chatbot that recommends products based on what the user types.
+      </div>
+      <ul class="project-points">
+        <li>Built the full frontend with <strong>HTML, CSS, JavaScript, and Bootstrap</strong></li>
+        <li>Integrated an <strong>NLP-based chatbot</strong> that uses entity recognition to understand user queries and suggest relevant products</li>
+        <li>Handled server-side logic with <strong>PHP</strong> and stored data using <strong>SQL</strong></li>
+      </ul>
+      <div class="project-stack">
+        <span class="stack-tag">HTML/CSS</span>
+        <span class="stack-tag">JavaScript</span>
+        <span class="stack-tag">Bootstrap</span>
+        <span class="stack-tag">PHP</span>
+        <span class="stack-tag">SQL</span>
+        <span class="stack-tag">NLP Chatbot</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="full-divider">
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-label">Education</div>
+  <h2 class="section-title">My learning journey.</h2>
+  <div class="edu-list">
+    <div class="edu-card">
+      <div class="edu-year">2026</div>
+      <div>
+        <div class="edu-degree">Python Full Stack Development</div>
+        <div class="edu-college">Accord Info Matrix, Chennai</div>
+        <div class="edu-note">HTML · CSS · JavaScript · Bootstrap · Python · React JS · MySQL · REST API · Git</div>
+      </div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-year">2023</div>
+      <div>
+        <div class="edu-degree">Master of Computer Applications (MCA)</div>
+        <div class="edu-college">Ethiraj College for Women, Chennai</div>
+        <div class="edu-note">CGPA: 7.66</div>
+      </div>
+    </div>
+    <div class="edu-card">
+      <div class="edu-year">2021</div>
+      <div>
+        <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
+        <div class="edu-college">M. O. P. Vaishnav College, Chennai</div>
+        <div class="edu-note">CGPA: 7.0</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="full-divider">
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap">
+    <div class="contact-title">Let's work together.</div>
+    <p class="contact-sub">I am currently open to junior developer roles in Chennai.<br>Feel free to reach out — I respond quickly.</p>
+    <div class="contact-links">
+      <a href="mailto:shalinih001@gmail.com" class="contact-link">✉ shalinih001@gmail.com</a>
+      <a href="https://www.linkedin.com/in/shalini-hariharan-92257923b/" class="contact-link" target="_blank">in LinkedIn</a>
+      <a href="https://github.com/Shalini0107" class="contact-link" target="_blank">⌥ GitHub</a>
+      <a href="resume.pdf" class="contact-link" download>⬇ Resume</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Shalini Hariharan · Built with HTML, CSS & dedication.
+</footer>
+
+</body>
+</html>
